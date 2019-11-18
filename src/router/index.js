@@ -1,6 +1,6 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
-import shou from "../view/shou"
+import Home from "../view/shou"
 import mudi from "../view/mudi"
 import faxian from "../view/faxian"
 import qianzhen from "../view/qianzhen"
@@ -12,15 +12,15 @@ let router = new VueRouter({
     //路由map集合 path : views component
     routes:[
 		// 映射路由
-    {path:"/",redirect:"/login"}, // 设置首页
-    {path:"/shou",component:shou},
+    {path:"/",redirect:"/Home"}, // 设置首页
+    {path:"/Home",component:Home},
 	// 分类
 	{path:"/mudi",component:mudi},
 	// 购物车
 	{path:"/faxian",component:faxian},
     { name:"qianzhen",path:"/qianzhen",component:qianzhen},
 	// 我的
-	{path:"/my",component:my,meta:{needLogin: true}},
+	{path:"/my",component:my},
 	{path:"/login",component:login}
 ],
 })

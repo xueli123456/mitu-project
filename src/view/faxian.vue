@@ -1,10 +1,10 @@
 <template>
-	<div>发现</div>
+	<div>nfvkldlsxmnc </div>
 </template>
 
 <script>
 	export default{
-		name:"faxian"
+		name:"Discover"
 	}
 </script>
 
