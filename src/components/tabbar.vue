@@ -89,6 +89,6 @@
 	}
 
 	.active p {
-		color: red;
+		color: #FF5523;
 	}
 </style>
