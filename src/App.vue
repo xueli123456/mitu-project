@@ -1,18 +1,14 @@
 <template>
   <div id="app">
 <router-view></router-view>
-    <tabbar msg="Welcome to Your Vue.js App"/>
+   
   </div>
 </template>
 
 <script>
-import tabbar from './components/tabbar.vue'
 
 export default {
   name: 'app',
-  components: {
-    tabbar
-  }
 }
 </script>
 

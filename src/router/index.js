@@ -1,27 +1,57 @@
 import Vue from "vue"
 import VueRouter from "vue-router"
-import Home from "../view/shou"
-import mudi from "../view/mudi"
-import faxian from "../view/faxian"
-import qianzhen from "../view/qianzhen"
-import my from "../view/my"
-import login from "../view/login"
-
+import home from "../views/home"
+import destinate from "../views/destinate"
+import discover from "../views/discover"
+import my from "../views/my"
+import register from "../views/register"
+import login from "../views/login"
+import main from "../views/main"
 Vue.use(VueRouter)
 let router = new VueRouter({
     //路由map集合 path : views component
     routes:[
 		// 映射路由
-    {path:"/",redirect:"/Home"}, // 设置首页
-    {path:"/Home",component:Home},
-	// 分类
-	{path:"/mudi",component:mudi},
-	// 购物车
-	{path:"/faxian",component:faxian},
-    { name:"qianzhen",path:"/qianzhen",component:qianzhen},
-	// 我的
-	{path:"/my",component:my},
-	{path:"/login",component:login}
+    {
+      path:'/main',
+      component:main,
+  },
+  {
+      path: '/',
+      redirect: '/main/home'
+  },
+
+  {
+    path: '/main/register',
+    component:register,
+  },
+  {
+    path: '/main/login',
+    component:login,
+  },
+    {
+      path: '/main',
+      component: main,
+      children: [
+          {
+              path: 'home',
+              component: home
+          },
+          {
+            path:'destinate',
+            component:destinate,
+          },
+          {
+              path: 'discover',
+              component: discover
+          },
+          {
+              path: 'my',
+              component:  my
+          }
+      ]
+  }
+
 ],
 })
 // 前置守卫,判断哪个需要登录

@@ -1,5 +1,5 @@
 <template>
-	<div>登录</div>
+	<div><p>登录</p></div>
 </template>
 
 <script>
@@ -8,5 +8,8 @@
 	}
 </script>
 
-<style>
+<style scoped>
+	p{
+	font-size: 0.12rem;	
+	}
 </style>

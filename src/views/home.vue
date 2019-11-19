@@ -1,12 +1,12 @@
 <template>
-		<div>目的</div>
+	<div>首页</div>
 </template>
 
 <script>
 	export default{
-		name:"mudi"
+		name:"shou"
 	}
 </script>
 
-<style>
+<style scoped>
 </style>
