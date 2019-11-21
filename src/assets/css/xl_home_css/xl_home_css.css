@@ -1,0 +1,374 @@
+.xl_home{
+    font-size: 0.12rem;
+}
+.kong{
+    height: 0.5rem;
+}
+.xl_tourism,.xl_character{
+    padding: 0 0.2rem 0.15rem;
+    background-color: #fff;
+    border-bottom:3px solid #f5f5f5;
+}
+.tourism_title{
+    padding: 0.17rem 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.xl_tour_con{
+    flex: initial;
+    width: 90%;
+}
+.xl_tour_con>p {
+    font-size: 0.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-height: 1.4;
+    color: #333;
+}
+.xl-label-desc{
+    font-size: 0.12rem;
+    display: block;
+    color: #999;
+    height: 0.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-align: left;
+}
+.desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    height: 0.38rem;
+}
+.traveler-img{
+    position: relative;
+    margin-right: 0.12rem;
+    float: left;
+}
+.traveler-img img {
+    width: 0.4rem;
+    height:  0.4rem;
+    border-radius: 50%;
+}
+.tourism_content{
+    padding-left: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+.xl_tourism_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.xl_tourism_list a{
+    display:inline-block;
+}
+.traveler-infor {
+    margin-bottom: 0.15rem;
+}
+.traveler-infor p {
+    font-size: .17rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+.travel-tag {
+    background-color: #ff9b35;
+    color: #fff!important;
+    padding: 1px 0.1rem;
+    text-align: left;
+    border-radius: 1rem;
+    font-size: .125rem;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+.xl_product_item>p{
+    margin-bottom: 0.15rem;
+    font-size: .14rem;
+    color: #333;
+    line-height: 0.19rem;
+    text-align: left;
+}
+.xl_product-price{
+    font-size: 0.16rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+    width: 0.9rem;
+    padding: 0.04rem 0;
+    line-height: 1;
+    background-color: #ff5647;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+.xl_item-img,.character-item-img{
+    position: relative;
+    border-radius: 0.12rem;
+    overflow: hidden;
+}
+.xl_item-img img {
+    width: 2.85rem;
+    height: 1.58rem;
+    vertical-align: middle;
+    border-radius: 0.12rem;
+}
+.character-item-img img{
+    width: 3.35rem;
+    height: 1.8rem;
+    vertical-align: middle;
+    border-radius: 0.12rem;
+}
+.xl_product-price b {
+    font-weight: 400;
+    font-size: .12rem;
+}
+.xl_item-tit{
+    margin-top: 0.1rem;
+    font-size: .16rem;
+    color: #333;
+    line-height: 0.2rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+.xl_item-infor{
+    text-align: left;
+}
+.xl_item-des {
+    margin: 4px 0 0;
+    font-size: .12rem;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-height: 0.19rem;
+}
+.tourism_content:after {
+    content: "";
+    display: block;
+    margin-top: 0.14rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+.xl_active:after{
+    content: "";
+    display: block;
+    margin-top: 0.1rem;
+    border-bottom: 1px solid white!important;
+}
+.xl_character_tab{
+    padding: 0.17rem 0.2rem;
+    height: 0.4rem;
+    display: flex;
+    background-color: #fff;
+    position: relative;
+}
+.xl_tab-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: 100% 1px;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: rgb(102, 102, 102);
+}
+.product-item .jian {
+    background-image: linear-gradient(180deg,rgba(0,0,0,.3),transparent);
+    border-top-left-radius: 0.12rem;
+    border-top-right-radius:0.12rem;
+}
+ .shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.5rem;
+    width: 100%;
+}
+.xl_product-tag {
+    position: absolute;
+    top: 0;
+    left: 0.1rem;
+    width:0.6rem;
+}
+.xl_product-tag .tag-green {
+    background-color: #FF5C5D;
+}
+.xl_product-tag .tag, .xl_product-tag span:nth-child(2) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.xl_product-tag span {
+    font-size: .125rem;
+    text-align: center;
+    padding: 4px 0;
+    line-height: 1;
+    display: block;
+    background-color: #1cb677;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+.tag-wrap{
+    height: 0.16rem;
+    overflow: hidden;
+}
+.tag-wrap p {
+    display: flex;
+    width: 200%;
+    overflow: hidden;
+    transform: scale(.5);
+    transform-origin: 0 0;
+}
+.tag-wrap span.tag-yellow {
+    background-color: #fff;
+    border: 1px solid #fda403;
+    color: #fda403;
+}
+.tag-wrap span {
+    display: block;
+    margin: 0.04rem .1rem 0 0;
+    padding: 0 .05rem;
+    height: 0.28rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*font-size: 1rem;;*/
+    line-height: 0.28rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+.character_product_item{
+    display: block;
+}
+.character_product_item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    margin: .175rem 0;
+}
+.xl_character_product a:last-child:after {
+    border: 0;
+}
+.xl_tab_active{
+    border-width: 0.03rem;
+    border-bottom: 3px solid rgb(240, 100, 60);
+    color: rgb(240, 100, 60);
+}
+.xl_home-footer{
+    text-align: center;
+    padding-bottom: 0.45rem;
+    background: #f5f5f5;
+}
+.mt-ward {
+    background: #f5f5f5;
+    padding: 0.08rem 0.2rem;
+}
+.tit {
+    margin-bottom: 0.06rem;
+    color: #fff;
+    font-size: .14rem;
+    background-position: 50%;
+    background-image: url(../../images/xl_home_img/xl_home_ward.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.listinfor li {
+    float: left;
+    width: 33.33%;
+    color: #999;
+    font-size: 0.12rem;
+    line-height: 1.8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+.list-star:before {
+    content: "";
+    display: inline-block;
+    width: 0.07rem;
+    height:  0.07rem;
+    background-image: url("../../images/xl_home_img/xl_home_start.png");
+    margin-right: 0.02rem;
+    background-position: 50%;
+    background-size: contain;
+}
+.footlink {
+    background-color: #fff;
+    padding: 0 0.2rem;
+    display: block;
+}
+.footlink:after ,.listinfor:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footlink li {
+    float: left;
+    width: 33%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+ .footlink li a {
+    display: block;
+    color: #333;
+    font-size: 0.12rem;
+    position: relative;
+}
+.footlink li a:after {
+    content: "";
+    height:0.14rem;
+    width:0.01rem;
+    display: block;
+    position: absolute;
+    top: 0.18rem;
+    right: 0;
+    clear: both;
+    border-right: 1px solid #ccc;
+}
+.footlink li:last-child a:after {
+    border: 0;
+}
+.relat-link {
+   background-color: white;
+    padding: 0.16rem 0.11rem;
+    font-size: 0.12rem;
+    color: #999;
+}
+.relat-link p{
+    line-height: 1.6;
+}
+.relat-link .alink {
+    padding: 0 0.08rem 0.1rem;
+    display: inline-block;
+    color: #999;
+}
+.icon-backup {
+    display: inline-block;
+    width: 0.2rem;
+    height:0.2rem;
+    background: url(../../images/xl_home_img/xl_home_header.png) -449px -201px no-repeat;
+    vertical-align: -0.05rem;
+    /*background-size:15px 15px;*/
+}
+.isFixed{
+    position:fixed;
+    background-color:#Fff;
+    top:0;
+    z-index:999;
+    width: 100%;
+    padding: 0.06rem 0.2rem;
+}
+.isFixed .xl_tab-item{
+    width: 0.8375rem;
+}
